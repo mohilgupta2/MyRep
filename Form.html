@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Form</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+  <link href="css/table.css" rel="stylesheet">
+  <style>
+  #page-content-wrapper{
+  background-color:#7F7F7F;}
+  input{
+  border:none;
+  border-bottom:1px solid;}
+  </style>
+</head>
+
+<body bgcolor=="white">
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Profile Name </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light">Home</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Logout</a>
+        
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg nav-clr border-bottom p-0">
+        
+        <img src="img/menu.png" id="menu-toggle" style="height:25px;padding-left:5px;">
+        <div class="logo ml-5">
+          <div class="logo">D A L T U N</div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle profile_name mr-5"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="profile_name">Name</span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Home</a>
+                <a class="dropdown-item" href="#">Profile</a>
+                <a class="dropdown-item" href="#">Logout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container-fluid" style="background-image: linear-gradient(114deg, #F3F7F7, #CBEDED);height:100vh;">
+	  <html>
+<head>
+<title>Center</title>
+</head>
+<body bgcolor="white">
+  <h1 align="center">Edit Your Details</h1>
+  <table border="0" height="400px" width="50%" align="center">
+   
+    <tr bgcolor=" #add8e6">
+      <th ><font size="5">Name:</font></th>
+      <th> <input type="text"</th>
+    </tr>
+    <tr bgcolor=" #add8e6">
+      <th><font size="5">E-mail:</font></th>
+      <th><input type="text"></th>
+    </tr>
+    <tr bgcolor=" #add8e6">
+      <th><font size="5">College:</font></th>
+      <th><input type="text"</th>
+    </tr>
+    <tr bgcolor=" #add8e6">
+      <th><font size="5">Department:</font></th>
+      <th><input type="text"</th>
+    </tr>
+    <tr bgcolor=" #add8e6">
+      <th><font size="5">Registration Number:</font></th>
+      <th><input type="number"</th>
+    </tr>
+    <tr bgcolor=" #add8e6">
+      <th><font size="5">Address:</font></th>
+      <th><input type="text"</th>
+    </tr>
+    <tr bgcolor=" #add8e6">
+      <th><font size="5">Mobile Number:</font></th>
+      <th><font size="5"><input type="number"</font></th>
+    </tr>
+    <tr bgcolor="#87ceeb">
+      <th colspan="2">
+      <input type="submit">
+      <input type="reset">
+    </th>
+      </tr>
+    </table>
+  </body>
+</html>
+
+                  
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
